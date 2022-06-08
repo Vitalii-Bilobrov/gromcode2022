@@ -1,0 +1,71 @@
+.header {
+    background-color: darkturquoise;
+    height: 40px;
+}
+
+.navigation {
+    height: 40px;
+}
+
+.nav-list {
+    margin: 0px;
+}
+
+.nav-item {
+    float: left;
+    margin: 16px;
+    color: white;
+    position: relative;
+    top: 50%;
+}
+
+.content {
+    background-color: beige;
+    height: 5000px;
+}
+
+.head {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    position: relative;
+    top: 50%;
+    left: 50%;
+}
+
+.ear {
+    width: 40px;
+    height: 60px;
+    background-color: brown;
+}
+
+.eye {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: grey;
+    position: absolute;
+    top: 80px;
+}
+
+.eye_left {
+    position: absolute;
+    left: 40px;
+}
+
+.eye_right {
+    position: absolute;
+    left: 130px;
+}
+
+.ear_left {
+    position: absolute;
+    top: -60px;
+    right: 200px;
+}
+
+.ear_right {
+    position: absolute;
+    top: -60px;
+    left: 200px;
+}
