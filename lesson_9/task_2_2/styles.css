@@ -3,6 +3,7 @@
     height: 40px;
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 .navigation {
@@ -17,6 +18,8 @@
     float: left;
     margin-left: 16px;
     color: white;
+    list-style-type: none;
+    line-height: 16px;
     position: relative;
     top: 50%;
 }
@@ -31,7 +34,7 @@
     height: 200px;
     background-color: aquamarine;
     position: relative;
-    top: 200px;
+    top: 50%;
     left: 50%;
 }
 
