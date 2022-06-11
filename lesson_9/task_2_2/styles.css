@@ -20,6 +20,8 @@
         color: white;
         list-style-type: none;
         line-height: 40px;
+        position: relative;
+        top: 50%;
     }
     
     .content {
