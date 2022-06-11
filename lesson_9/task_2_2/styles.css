@@ -11,6 +11,8 @@
     }
     
     .nav-list {
+        margin: 0;
+        list-style: none;
         line-height: 40px;
     }
     
