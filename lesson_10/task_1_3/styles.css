@@ -16,11 +16,10 @@
     list-style-type: none;
     margin: 0;
     display: flex;
-    margin-left: 16px;
 }
 
 .nav_item {
-    margin-left: 16px;
+    padding-left: 16px;
 }
 
 .footer_text {
@@ -61,7 +60,7 @@
 }
 
 .list-news {
-    margin-left: 16px;
+    padding-left: 16px;
 }
 
 .news {
