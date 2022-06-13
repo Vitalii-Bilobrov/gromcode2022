@@ -1,9 +1,11 @@
-.container{
+.container {
     display: flex;
-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
-.block{
+
+.block {
     height: 100px;
-width: 100px;
-flex-shrink: 0;
+    width: 100px;
+    flex-shrink: 0;
+    flex-grow: 1;
 }
