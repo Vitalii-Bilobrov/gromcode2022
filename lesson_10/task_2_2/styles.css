@@ -1,22 +1,22 @@
-    header {
-        text-align: center;
-    }
-    
-    .article {
-        padding: 8px;
-        margin: 16px;
-        background-color: bisque;
-        flex-grow: 1;
-        flex-basis: 300px;
-        flex-shrink: 1;
-        flex-grow: 1;
-    }
-    
-    .articles-list {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    
-    * {
-        box-sizing: border-box;
-    }
+* {
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+}
+
+.article {
+    padding: 16px;
+    margin: 8px;
+    background-color: bisque;
+    flex-grow: 1;
+    flex-basis: 300px;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+.articles-list {
+    display: flex;
+    flex-wrap: wrap;
+}
