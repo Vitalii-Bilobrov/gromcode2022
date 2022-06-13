@@ -16,6 +16,7 @@
     list-style-type: none;
     margin: 0;
     display: flex;
+    padding: 0px;
 }
 
 .nav_item {
@@ -46,24 +47,22 @@
 }
 
 .sidebar {
-    display: flex;
     flex-direction: column;
     width: 200px;
     background-color: gray;
-    align-items: center;
     list-style-type: none;
 }
 
 .n {
     margin-top: 16px;
     margin-bottom: 16px;
+    text-align: center;
 }
 
-.list-news {
-    padding-left: 16px;
-}
+.list-news {}
 
 .news {
     height: 40px;
     list-style-type: none;
+    padding-left: 16px;
 }
