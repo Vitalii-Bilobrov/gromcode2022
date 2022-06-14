@@ -36,10 +36,10 @@
         display: block;
     }
     
-    .menu-button:hover+.menu-list .menu-item {
-        background-color: ghostwhite;
-    }
-    
     .menu-button:hover {
         opacity: 1;
+    }
+    
+    .dropdown:hover .menu-list {
+        background-color: ghostwhite;
     }
