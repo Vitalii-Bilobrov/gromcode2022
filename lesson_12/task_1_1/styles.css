@@ -1,35 +1,35 @@
 html {
-    font-family: Roboto, sans-serif;
-    font-size: 18px;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
 }
 
 body {
-    margin: 32px;
+  margin: 32px;
 }
 
 h1 {
-    word-spacing: 20px;
-    text-transform: uppercase;
-    text-align: center;
+  word-spacing: 20px;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 p {
-    line-height: 28px;
+  line-height: 28px;
 }
 
 b {
-    font: solid black;
-    font-size: 24px;
-    letter-spacing: 3px;
-    text-decoration: underline;
-    color: rgba(0, 0, 0, 0.8);
+  font: solid black;
+  font-size: 24px;
+  letter-spacing: 3px;
+  text-decoration: underline;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 em {
-    font-style: italic;
-    color: gray;
+  font-style: italic;
+  color: gray;
 }
