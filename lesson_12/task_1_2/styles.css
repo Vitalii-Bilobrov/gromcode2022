@@ -8,8 +8,8 @@
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
-        width: 50%;
-        text-align: center;
+        width: 50vw;
+        margin: auto;
     }
     
     div {
