@@ -9,6 +9,7 @@
         white-space: nowrap;
         text-overflow: ellipsis;
         width: 50%;
+        text-align: center;
     }
     
     div {
