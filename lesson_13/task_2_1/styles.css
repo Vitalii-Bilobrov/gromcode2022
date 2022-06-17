@@ -5,10 +5,11 @@
   height: 200px;
   width: 200px;
   border: 1px dotted gray;
-  display: inline-block;
+  
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
   margin: 16px;
 }
 
+.gallery{display: flex;}
