@@ -9,17 +9,16 @@
 .image-button {
   position: absolute;
   width: 200px;
-
   top: calc(50% - 25px);
   left: calc(50% - 100px);
-  text-align: center;
   line-height: 50px;
+  text-align: center;
+  
   background-color: bisque;
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
   filter: opacity(0.5);
- 
 }
 .image-button:hover {
   filter: opacity(1);
