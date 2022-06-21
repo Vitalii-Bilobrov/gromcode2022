@@ -19,7 +19,7 @@
   font-weight: 700;
   text-transform: uppercase;
   filter: opacity(0.5);
-  height: 50px;
+ 
 }
 .image-button:hover {
   filter: opacity(1);
