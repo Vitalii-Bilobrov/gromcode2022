@@ -2,12 +2,13 @@
   box-sizing: border-box;
 }
 .image-container {
+  display: flex;
   position: relative;
-  display: block;
-
+  justify-content: center;
   max-width: 100%;
 }
 .image-button {
+  
   position: absolute;
   width: 200px;
   height: 50px;
