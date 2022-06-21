@@ -11,9 +11,11 @@
   width: 200px;
   top: calc(50% - 25px);
   left: calc(50% - 100px);
-  line-height: 50px;
-  text-align: center;
-  
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   background-color: bisque;
   font-size: 12px;
   font-weight: 700;
