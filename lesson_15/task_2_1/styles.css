@@ -5,8 +5,7 @@
   display: flex;
   position: relative;
   justify-content: center;
-  height: auto;
-  max-width: 100%;
+  
 }
 .image-button {
   position: absolute;
@@ -21,6 +20,8 @@
   font-weight: 700;
   text-transform: uppercase;
   filter: opacity(0.5);
+  height: auto;
+  max-width: 100%;
 }
 .image-button:hover {
   filter: opacity(1);
