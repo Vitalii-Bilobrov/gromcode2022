@@ -23,19 +23,19 @@
           <input type="checkbox" name="agree" unchecked />
         </div>
         <div>
-          <input type="checkbox" name="like" checked disabled />
+          <input type="checkbox" name="like" checked />
         </div>
         <div>
           <input type="color" name="favoriteColour" value="#ff7f50" />
         </div>
         <div>
-          <input type="date" name="birthDate" value="2021-02-01" />
+          <input type="date" name="birthDate" value="2021-01-02" />
         </div>
         <div>
           <input
             type="datetime-local"
             name="birthTime"
-            value="20224-10-04T13:02"
+            value="2024-10-04T13:02"
           />
         </div>
         <div>
@@ -63,14 +63,15 @@
             cols="30"
           ></textarea>
         </div>
-        <div>
-          <input type="text" name="password" value="secret" />
+        <div class="form-control">
+          <label for="password"></label>
+          <input type="password" id="password" name="password" required />
         </div>
         <div>
           <languages>
             <input id="html" type="radio" name="language" value="html" />
             <label for="html">HTML</label>
-            <input id="css" type="radio" name="language" value="css" />
+            <input id="css" type="radio" name="language" value="css" checked />
             <label for="css">CSS</label>
             <input
               id="javascript"
