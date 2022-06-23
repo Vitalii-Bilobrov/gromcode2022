@@ -32,6 +32,7 @@ main {
   outline: none;
 }
 .form-lable {
+  display: block;
   margin-bottom: 4px;
 }
 .submit-button {
