@@ -26,7 +26,7 @@
           <input type="checkbox" name="like" checked />
         </div>
         <div>
-          <input type="color" name="favoriteColour" value="#ff7f50" />
+          <input type="color" name="favouriteColour" value="#ff7f50" />
         </div>
         <div>
           <input type="date" name="birthDate" value="2021-01-02" />
@@ -53,7 +53,7 @@
           <input type="month" name="startLearning" value="2020-01" />
         </div>
         <div>
-          <input type="number" name="favoriteNumber" value="17" />
+          <input type="number" name="favouriteNumber" value="17" />
         </div>
         <div>
           <textarea
@@ -65,22 +65,26 @@
         </div>
         <div class="form-control">
           <label for="password"></label>
-          <input type="password" id="password" name="password" required />
+          <input
+            type="password"
+            id="password"
+            name="password"
+            value="secret"
+            required
+          />
         </div>
-        <div>
-          <languages>
-            <input id="html" type="radio" name="language" value="html" />
-            <label for="html">HTML</label>
-            <input id="css" type="radio" name="language" value="css" checked />
-            <label for="css">CSS</label>
-            <input
-              id="javascript"
-              type="radio"
-              name="language"
-              value="javascript"
-            />
-            <label for="javascript">JavaScript</label>
-          </languages>
+        <div class="languages">
+          <input id="html" type="radio" name="language" value="html" />
+          <label for="html">HTML</label>
+          <input id="css" type="radio" name="language" value="css" checked />
+          <label for="css">CSS</label>
+          <input
+            id="javascript"
+            type="radio"
+            name="language"
+            value="javascript"
+          />
+          <label for="javascript">JavaScript</label>
         </div>
         <div>
           <input type="range" name="learningProgress" value="30" />
@@ -88,7 +92,7 @@
         <div>
           <select name="framework">
             <option value="react">React</option>
-            <option value="jquery">jQuery</option>
+            <option value="jquery" selected>jQuery</option>
             <option value="bootstrap">Bootstrap</option>
           </select>
         </div>
@@ -106,7 +110,7 @@
           <input
             type="url"
             name="website"
-            placeholder="https//website.com"
+            placeholder="https:://website.com"
             required
           />
         </div>
