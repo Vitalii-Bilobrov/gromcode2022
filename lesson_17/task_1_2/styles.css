@@ -22,7 +22,8 @@
   tfoot{
     font-weight: 700;
   }
-  caption{margin: 8px;}
+  caption{margin-bottom: 8px; font-weight: 700;}
+  
 tbody>tr:nth-child(odd){background-color: #f2f2f2;}
 tbody>tr:hover{background-color: #aaa;
 color: white;}
