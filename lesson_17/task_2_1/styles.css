@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+table {
+  margin: 16px;
+  border-collapse: collapse;
+}
+td {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  border: solid black 1px;
+}
+tr > td:nth-child(odd) {
+  background-color: black;
+}
+tr > td:first-child {
+  background-color: white;
+  border: none;
+}
+tr > td:last-child {
+  border: none;
+}
+table > tr:nth-child(even) {
+  background-color: black;
+}
+table > tr:first-child {
+  background-color: white;
+  border: none;
+}
+table > tr:last-child {
+  background-color: white;
+  border: none;
+}
