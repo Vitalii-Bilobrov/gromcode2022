@@ -1,4 +1,6 @@
-
+* {
+  box-sizing: border-box;
+}
 td,
 table,
 th {
@@ -11,7 +13,7 @@ td,
 th {
   padding: 4px;
   text-align: right;
-  line-height: 40px;
+
 }
 div {
   overflow-x: auto;
@@ -32,3 +34,4 @@ tbody > tr:hover {
   background-color: #aaa;
   color: white;
 }
+tr{ line-height: 40px;}
