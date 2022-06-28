@@ -4,7 +4,6 @@
 td,
 table,
 th {
-  width: 500px;
   margin: 16px;
   border: solid black 1px;
   border-collapse: collapse;
@@ -13,8 +12,6 @@ td,
 th {
   padding: 4px;
   text-align: right;
- 
-
 }
 div {
   overflow-x: auto;
@@ -35,5 +32,9 @@ tbody > tr:hover {
   background-color: #aaa;
   color: white;
 }
-tr{ height: 40px;}
-
+tr {
+  height: 40px;
+}
+table {
+  width: 500px;
+}
