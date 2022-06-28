@@ -13,6 +13,7 @@ td,
 th {
   padding: 4px;
   text-align: right;
+ 
 
 }
 div {
@@ -34,4 +35,5 @@ tbody > tr:hover {
   background-color: #aaa;
   color: white;
 }
-tr{ line-height: 40px;}
+tr{ height: 40px;}
+
