@@ -12,7 +12,7 @@
   font-family: "Courier New", Courier, monospace;
   line-height: 50px;
 }
-.custom-button:hover{
+.custom-button:hover {
   fill: green;
   color: darkcyan;
 }
@@ -27,4 +27,10 @@
 }
 .custom-button:hover > .bird_icon {
   fill: green;
+}
+.fas {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+  text-decoration:solid;
 }
