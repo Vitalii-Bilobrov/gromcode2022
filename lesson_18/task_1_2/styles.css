@@ -28,7 +28,7 @@
 .custom-button:hover > .bird_icon {
   fill: green;
 }
-.fas {
+/*.fas {
   width: 32px;
   height: 32px;
   vertical-align: middle;
