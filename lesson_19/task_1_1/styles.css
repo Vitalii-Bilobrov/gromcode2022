@@ -19,3 +19,18 @@
   width: 100%;
   opacity: 1;
 }
+.rect:nth-child(1){
+    transition-timing-function:linear ;
+}
+.rect:nth-child(2){
+    transition-timing-function:ease ;
+}
+.rect:nth-child(3){
+    transition-timing-function:ease-in ;
+}
+.rect:nth-child(4){
+    transition-timing-function:ease-out ;
+}
+.rect:nth-child(5){
+    transition-timing-function:ease-in-out ;
+}
