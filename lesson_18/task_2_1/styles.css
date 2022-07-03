@@ -1,19 +1,22 @@
-body {
+div {
   display: flex;
   justify-content: space-around;
-
 }
-.fa-battery-full{
+i:nth-child(1) {
   font-size: 16px;
 }
-.fa-battery-three-quarters{
+i:nth-child(2) {
   font-size: 32px;
 }
-.fa-battery-half {
+i:nth-child(3) {
   font-size: 64px;
 }
-.fa-battery-quarter {font-size: 128px;
-  
+i:nth-child(4) {
+  font-size: 128px;
 }
-i [class="fa fa-battery-empty"] {font-size: 256px;}
-
+i:nth-child(5) {
+  font-size: 256px;
+}
+* {
+  box-sizing: border-box;
+}
