@@ -11,13 +11,12 @@
   opacity: 0.5;
   width: 100px;
   height: 100px;
-  transition-property: width, opacity;
-  transition-duration: 1s, 0.5s;
   line-height: 100px;
 }
 .rect:hover {
   width: 100%;
   opacity: 1;
+  transition: width 1s, opacit 0.5s;
 }
 .rect:nth-child(1) {
   transition-timing-function: linear;
