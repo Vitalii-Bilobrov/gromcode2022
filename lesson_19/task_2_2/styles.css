@@ -14,7 +14,7 @@
   align-items: center;
   justify-content: center;
 
-  animation: ease;
+  animation: drop;
   animation-duration: 2s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -26,12 +26,11 @@ span {
   color: white;
   text-transform: uppercase;
 }
-@keyframes ease {
+@keyframes drop {
   from {
-    top:100px;
+    top: -100px;
   }
   to {
-    top: calc(50vh-50px);
+    top: calc(50vh - 50px);
   }
-  
 }
