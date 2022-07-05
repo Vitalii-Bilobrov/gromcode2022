@@ -38,7 +38,7 @@
   margin-bottom: 8px;
   border-radius: 50%;
 
-  animation: circle;
+  animation: circle 2s infinite linear;
   animation-duration: 2s;
   animation-timing-function: linear;
  
