@@ -39,8 +39,7 @@
   border-radius: 50%;
 
   animation: circle 2s infinite linear;
-  animation-duration: 2s;
-  animation-timing-function: linear;
+ 
  
 }
 @keyframes circle {
