@@ -36,12 +36,10 @@
   border-top-color: black;
   margin: auto;
   margin-bottom: 8px;
-  margin-top: 1px;
+  margin-top: 0.7px;
   border-radius: 50%;
 
   animation: circle 2s infinite linear;
- 
- 
 }
 @keyframes circle {
   from {
