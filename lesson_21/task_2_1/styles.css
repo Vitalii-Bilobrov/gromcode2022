@@ -42,7 +42,6 @@ body {
   background-color: #808080;
   line-height: 2em;
   margin-bottom: 0.5em;
- 
 }
 .nav-list-link {
   color: white;
@@ -51,9 +50,6 @@ body {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  width: 100%;
-  
-
 }
 .section {
   width: 60%;
@@ -68,7 +64,7 @@ body {
 .css-units {
   color: #8b0000;
   background-color: #e5e5e5;
-  font-size: 125%;
+  font-size: 125rem;
   font-weight: 700;
 }
 .section__header {
