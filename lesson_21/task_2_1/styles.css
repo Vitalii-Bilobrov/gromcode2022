@@ -37,17 +37,19 @@ body {
   margin-bottom: 0.5em;
   line-height: 2em;
   list-style-type: none;
-  
+  color: white;
 }
 .nav-list-link {
-  color: white;
+  display: inline-block;
   width: 100%;
   text-decoration: none;
   padding: 0 0.5em;
+  color: white;
+  
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  display: inline-block;
+  
 }
 .section {
   width: 60%;
