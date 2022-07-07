@@ -20,7 +20,7 @@ body {
 }
 .main {
   flex-grow: 1;
-  padding: 0.5em;
+ 
   display: flex;
 }
 .navigation {
@@ -45,7 +45,7 @@ body {
   text-decoration: none;
   padding: 0 0.5em;
   color: white;
-  
+
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -54,6 +54,7 @@ body {
 .section {
   width: 60%;
   font-size: 1.25em;
+  padding: 0.5em;
 }
 .section__header {
   font-size: 5vw;
