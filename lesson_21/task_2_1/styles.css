@@ -20,7 +20,7 @@ body {
 }
 .main {
   flex-grow: 1;
- 
+
   display: flex;
 }
 .navigation {
@@ -29,7 +29,6 @@ body {
 }
 .nav-list {
   padding: 0;
-  
 }
 .nav-list-item {
   background-color: #808080;
@@ -49,7 +48,6 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  
 }
 .section {
   width: 60%;
@@ -71,6 +69,7 @@ body {
 }
 .news {
   width: 20%;
+  padding: 0.5em;
 }
 .footer {
   background-color: #e5e5e5;
@@ -80,3 +79,4 @@ body {
   align-items: center;
   width: 100%;
 }
+
