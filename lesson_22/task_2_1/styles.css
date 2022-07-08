@@ -16,7 +16,6 @@ button {
   border: none;
   align-items: center;
   padding: 0;
-  background-color: white;
   cursor: pointer;
 }
 i {
@@ -33,13 +32,17 @@ i {
 .nav-list-item {
   background-color: #808080;
   height: 2em;
-  padding: 0.5em;
+  margin: 0.5em;
   color: white;
+  display: flex;
+
+  
 }
 .nav-list-link {
   text-decoration: none;
   padding: 0.5em;
   color: white;
+  align-items: center;
 
   width: 100%;
   overflow: hidden;
@@ -47,12 +50,12 @@ i {
   white-space: nowrap;
 }
 @media screen and (min-width: 600px) {
-  .navigationt {
+  button {
     display: none;
   }
 }
-@media screen and (min-width: 600px) {
-  .navigationt {
+@media screen and (max-width: 600px) {
+  .navigation {
     display: none;
   }
 }
