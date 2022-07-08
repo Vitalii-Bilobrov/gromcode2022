@@ -1,4 +1,3 @@
-
 .text {
   text-transform: lowercase;
   font-family: Verdana;
@@ -25,15 +24,14 @@
   background-color: #0ff;
   flex-grow: 1;
 }
-@media screen and (min-width:600px) {
+@media screen and (min-width: 600px) {
   .products {
     display: flex;
     flex-grow: 2;
   }
 }
-@media screen and (min-width:900px) {
-    .content{
-      display: flex;
-      flex-grow: 3;
-    }
+@media screen and (min-width: 900px) {
+  .content {
+    display: flex;
   }
+}
