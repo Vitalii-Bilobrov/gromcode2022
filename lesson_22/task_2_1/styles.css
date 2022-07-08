@@ -36,6 +36,7 @@ i {
   margin: 0.5em;
   color: white;
   display: flex;
+  width: 100%;
 }
 .nav-list-link {
   text-decoration: none;
