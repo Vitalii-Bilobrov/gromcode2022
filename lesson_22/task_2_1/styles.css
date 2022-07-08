@@ -22,13 +22,13 @@ i {
   font-size: 2em;
 }
 .navigation {
- 
+  width: 20vw;
   padding: 0.5em;
 }
 .nav-list {
   list-style-type: none;
   padding: 0;
-  width: 20vw;
+ 
 }
 .nav-list-item {
   background-color: #808080;
@@ -36,8 +36,6 @@ i {
   margin: 0.5em;
   color: white;
   display: flex;
-
-  
 }
 .nav-list-link {
   text-decoration: none;
