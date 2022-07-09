@@ -33,7 +33,7 @@ i {
 .nav-list-item {
   background-color: #808080;
   height: 2em;
-  margin: 0.5em;
+  margin: 0.5em 0;
   color: white;
   display: flex;
   width: 100%;
