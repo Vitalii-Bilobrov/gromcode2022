@@ -103,6 +103,10 @@ img {
     width: 100%;
     display: inline-block;
   }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 }
 @media screen and (min-width: 1200px) {
   .navigation {
@@ -120,6 +124,5 @@ img {
   img {
     max-width: 100%;
     height: auto;
-    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
   }
 }
