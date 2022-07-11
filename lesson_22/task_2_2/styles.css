@@ -31,7 +31,6 @@ img {
 .navigation {
   padding: 0.5em;
   width: 100%;
- 
 }
 .nav-list {
   padding: 0;
@@ -121,5 +120,6 @@ img {
   img {
     max-width: 100%;
     height: auto;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
   }
 }
