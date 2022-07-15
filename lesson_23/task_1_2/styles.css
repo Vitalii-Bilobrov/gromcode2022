@@ -13,12 +13,7 @@ body {
   width: 100px;
   height: 100px;
   background-color: #ff7f50;
-  margin: 8px;
-}
-@media screen and (min-width: 600px) {
-  .square {
-    background-color: #8a2be2;
-  }
+  margin: 16px;
 }
 @media screen and (min-width: 900px) {
   .square {
@@ -31,6 +26,11 @@ body {
   }
 }
 
+@media screen and (min-width: 600px) {
+  .container {
+    display: flex;
+  }
+}
 @media screen and (min-width: 900px) {
   .container {
     display: flex;
