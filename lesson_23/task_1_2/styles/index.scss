@@ -14,9 +14,12 @@ body{
   background-color: #ff7f50;
   margin: 16px;
 
-  
-  @include for-large-up {background-color: #a61;}
-  @include for-extra-large-up {background-color: #c47;}
+  @include for-medium-up {background-color: #8a2be2;
+    margin: 8px;}
+  @include for-large-up {background-color: #a61;
+    margin: 8px;}
+  @include for-extra-large-up {background-color: #c47;
+    margin: 8px;}
 }
 .container{
     @include for-medium-up {display: flex;}
