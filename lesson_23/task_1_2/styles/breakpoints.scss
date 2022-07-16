@@ -20,6 +20,10 @@ $lg: 1200px;
   }
   @mixin for-extra-large-up {
     @media screen and (min-width: $lg) {
-      @content;
+        @content;
     }
+}
+    @mixin for-landscape { @media screen and  (orientation: landscape) {
+        @content;
+      }
   }

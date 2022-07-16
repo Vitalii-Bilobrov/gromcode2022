@@ -22,8 +22,6 @@ body{
     margin: 8px;}
 }
 .container{
-    @include for-medium-up {display: flex;}
-    @include for-large-up {display: flex;}
-    @include for-extra-large-up {display: flex;}
-
+    @include for-landscape {display: flex;}
+   
 }
