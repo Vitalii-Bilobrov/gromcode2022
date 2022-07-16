@@ -33,6 +33,11 @@ body {
     margin: 8px;
   }
 }
+@media screen and (orientation: landscape) {
+  .square {
+    margin: 8px;
+  }
+}
 
 @media screen and (orientation: landscape) {
   .container {
