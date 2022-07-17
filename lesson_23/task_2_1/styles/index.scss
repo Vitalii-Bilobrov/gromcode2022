@@ -6,7 +6,9 @@ html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .submenu {
-
+  position: relative;
+  top: 52px;
+  left: -100px;
 }
 .menu__item_active {
   color: yellow;
@@ -27,5 +29,5 @@ html {
   color: black;
 }
 .menu__item-text:hover .submenu {
-  display:inline-block;
+  display: inline-block;
 }
