@@ -17,10 +17,13 @@
   display: flex;
   align-items: center;
 }
+
 .menu__item-text {
   text-transform: uppercase;
   color: white;
- 
+}
+.menu__item_active {
+  color: yellow;
 }
 .menu__item:hover {
   background-color: #9acd32;

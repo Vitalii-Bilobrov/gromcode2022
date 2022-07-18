@@ -6,20 +6,16 @@ html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .submenu {
-  position: relative;
-  top: 52px;
-  left: -100px;
-}
-.menu__item_active {
-  color: yellow;
-}
-.submenu__item {
+  padding: 0;
   margin: 0;
   background-color: #ff7f50;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
   color: #fff;
   min-width: 120px;
   z-index: 1;
+}
+
+.submenu__item {
   padding: 0 8px 0 8px;
   cursor: pointer;
   list-style-type: none;
