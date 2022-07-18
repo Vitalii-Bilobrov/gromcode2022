@@ -5,22 +5,23 @@
 .menu {
   display: flex;
   align-items: center;
+  line-height: auto;
   margin: 0 0 0 3em;
   padding: 0;
 }
 .menu__item {
   list-style-type: none;
   padding: 0 8px 0 8px;
- 
+  line-height: 3em;
   cursor: pointer;
   height: 3em;
   display: flex;
   align-items: center;
+  color: white;
 }
 
 .menu__item-text {
   text-transform: uppercase;
-  color: white;
 }
 .menu__item_active {
   color: yellow;

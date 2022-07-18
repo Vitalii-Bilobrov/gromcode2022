@@ -6,6 +6,8 @@ html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .submenu {
+  position: absolute;
+  top: 48px;
   padding: 0;
   margin: 0;
   background-color: #ff7f50;
@@ -13,6 +15,7 @@ html {
   color: #fff;
   min-width: 120px;
   z-index: 1;
+  display: none;
 }
 
 .submenu__item {
@@ -24,6 +27,6 @@ html {
 .submenu__item:hover {
   color: black;
 }
-.menu__item-text:hover .submenu {
-  display: inline-block;
+.menu__item_active:hover .submenu {
+  display: block;
 }

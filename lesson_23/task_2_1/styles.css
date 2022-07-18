@@ -5,20 +5,22 @@
 .menu {
   display: flex;
   align-items: center;
+  line-height: auto;
   margin: 0 0 0 3em;
   padding: 0;
 }
 .menu__item {
   list-style-type: none;
   padding: 0 8px 0 8px;
+  line-height: 3em;
   cursor: pointer;
   height: 3em;
   display: flex;
   align-items: center;
+  color: white;
 }
 .menu__item-text {
   text-transform: uppercase;
-  color: white;
 }
 .menu__item_active {
   color: yellow;
@@ -33,6 +35,8 @@ html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .submenu {
+  position: absolute;
+  top: 48px;
   padding: 0;
   margin: 0;
   background-color: #ff7f50;
@@ -40,6 +44,7 @@ html {
   color: #fff;
   min-width: 120px;
   z-index: 1;
+  display: none;
 }
 .submenu__item {
   padding: 0 8px 0 8px;
@@ -50,6 +55,6 @@ html {
 .submenu__item:hover {
   color: black;
 }
-.menu__item-text:hover .submenu {
-  display: inline-block;
+.menu__item_active:hover .submenu {
+  display: block;
 }
